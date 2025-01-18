@@ -4,7 +4,7 @@ import { SimpleGrid } from "@chakra-ui/react"
 import { TbShoppingBagX } from "react-icons/tb";
 import { Link } from 'react-router'
 import { useEffect } from 'react';
-import { useProductStore } from '../store/Product';
+import { useProductStore } from '../store/product';
 import ProductCard from '../components/ProductCard';
 
 
