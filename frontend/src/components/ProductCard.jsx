@@ -1,6 +1,6 @@
 import { Box, Button, Heading, HStack, IconButton, Image, Input, InputGroup, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Text, useColorModeValue, useDisclosure, useToast, VStack } from "@chakra-ui/react";
 import { FiEdit, FiDelete } from "react-icons/fi";
-import { useProductStore } from "../store/Product";
+import { useProductStore } from "../store/product";
 import { useState } from "react";
 
 

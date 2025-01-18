@@ -1,6 +1,6 @@
 import { Container, Heading, VStack, Box, useColorModeValue, Input, Button, useToast } from "@chakra-ui/react"
 import { useState } from "react"
-import { useProductStore } from "../store/Product";
+import { useProductStore } from "../store/product";
 
 
 const CreatePage = () => {
