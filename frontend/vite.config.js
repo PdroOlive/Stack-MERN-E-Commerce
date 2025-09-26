@@ -10,6 +10,10 @@ export default defineConfig({
             target: "http://localhost:5000"
         }
     }
-  }
+  },
+   build: {
+    // Define o nome da pasta de saída
+    outDir: 'dist' 
+  },
 
 })
